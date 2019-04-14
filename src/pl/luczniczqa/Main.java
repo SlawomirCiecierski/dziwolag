@@ -6,7 +6,6 @@
 package pl.luczniczqa;
 
 import pl.luczniczqa.dziwolag.Dziwolag;
-
 import java.util.Scanner;
 
 public class Main {
@@ -26,13 +25,13 @@ public class Main {
 
         System.out.println("Wpisz dane: ");
         String var1 = scan.nextLine();
-        int varA=Integer.parseInt(var1);
+        int varA = Integer.parseInt(var1);
 
         System.out.println("Wpisz dane: ");
         String var2 = scan.nextLine();
-        int varB=Integer.parseInt(var2);
+        int varB = Integer.parseInt(var2);
 
-        Dziwolag dziwolag=new Dziwolag(varA,varB);
+        Dziwolag dziwolag = new Dziwolag(varA, varB);
         System.out.println(dziwolag.Dziwolag(dziwolag.getPierwszaZmienna(), dziwolag.getDrugaZmienna()));
     }
 }
