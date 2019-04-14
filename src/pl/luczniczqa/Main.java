@@ -1,3 +1,8 @@
+/**
+ * @author Sławomir Ciecierski
+ * @email ciecierski@post.pl
+ */
+
 package pl.luczniczqa;
 
 import pl.luczniczqa.dziwolag.Dziwolag;
