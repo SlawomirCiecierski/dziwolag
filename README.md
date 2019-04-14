@@ -1,5 +1,5 @@
 # dziwolag
-###Aplikacja szkoleniowa przeznaczona dla testerów manualnych
-### i automatycznych.
+###Aplikacja szkoleniowa przeznaczona dla testerów manualnych i automatycznych
+
 ##Technologie
 ###Java
