@@ -14,7 +14,7 @@ public class Dziwolag {
 
     public Dziwolag(int pierwszaZmienna, int drugaZmienna) {
         if (pierwszaZmienna==drugaZmienna) {
-            throw new IllegalArgumentException("NIE DZIELIMY PRZEZ =0 ");
+            throw new IllegalMonitorStateException("NIE DZIELIMY PRZEZ =0 ");
         }
         this.pierwszaZmienna = pierwszaZmienna;
         this.drugaZmienna = drugaZmienna;
